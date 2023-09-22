@@ -5,7 +5,7 @@ This repository contains the notebook I used to built a rock paper scissors clas
 
 The data from [kaggle](https://www.kaggle.com/datasets/frtgnn/rock-paper-scissor), click [here](https://www.kaggle.com/datasets/frtgnn/rock-paper-scissor/download?datasetVersionNumber=1) to download the data.
 
-* [Here](https://www.kaggle.com/code/tawfikelmetwally/image-classification-accuracy-98-4/notebook) my kaggle notebook
+* [Here](https://www.kaggle.com/code/tawfikelmetwally/rock-paper-scissor-image-classification-task?scriptVersionId=142527277) my kaggle notebook
   
 **Note:**
   
