@@ -33,4 +33,4 @@ The data from [kaggle](https://www.kaggle.com/datasets/frtgnn/rock-paper-scissor
 
 ## License
 
-[MIT](./main/LICENSE)
+[MIT]()
