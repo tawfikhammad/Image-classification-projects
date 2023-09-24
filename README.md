@@ -4,12 +4,18 @@ This repository contains image classification tasks:
 
 - [x]  [digit recognition classification](https://github.com/tawfikhammad/Image-classification-projects/tree/main/digit-recognizer).
 - [x]  [rock-paper-scissors classification](https://github.com/tawfikhammad/Image-classification-projects/tree/main/rock%20paper%20scissors).
+- [x]  [Intel image classification](https://github.com/tawfikhammad/Image-classification-projects/tree/main/Intel%20images%20classification)
+
 
 The models are implemented using deep learning techniques and are trained on suitable datasets to achieve high accuracy.
+
+---
 
 ## Introduction
 
 The purpose of this repository is to provide pre-trained models and code for image classification tasks, specifically digit recognition and rock-paper-scissors classification. These models can be used for various applications, such as automatic digit recognition in handwritten documents or playing rock-paper-scissors with a computer.
+
+---
 
 ## Installation
 
@@ -19,49 +25,23 @@ To use the models and code in this repository, follow these steps:
 
    ````bash
    git clone https://github.com/your-username/Image-classification-projects.git
-   ```
+
 
 2. Install the required dependencies. Assuming you have Python and pip installed, run the following command:
 
    ````bash
    pip install -r requirements.txt
-   ```
+
 
 3. Setup the environment by downloading the necessary datasets and pre-trained models:
 
    ````bash
    python setup.py
-   ```
+
 
    This command will download the required datasets and pre-trained models into the appropriate directories.
 
-## Usage
-
-To use the image classification models in this repository, follow these steps:
-
-1. Import the necessary classes and functions from the code:
-
-   ````python
-   from model import DigitRecognizer, RockPaperScissorsClassifier
-   ```
-
-2. Create an instance of the desired model:
-
-   ````python
-   digit_recognizer = DigitRecognizer()
-   rps_classifier = RockPaperScissorsClassifier()
-   ```
-
-3. Use the model to classify images:
-
-   ````python
-   digit_predictions = digit_recognizer.predict(image)
-   rps_prediction = rps_classifier.predict(image)
-   ```
-
-   Replace `image` with the input image you want to classify.
-
-Please refer to the code documentation and examples for detailed usage instructions.
+----
 
 ## Models
 
@@ -71,6 +51,10 @@ This repository currently provides the following models:
 
 2. **Rock-Paper-Scissors Classifier**: This model is trained to classify images of human hand gestures representing rock, paper, or scissors.
 
+3. **Intel images classification**: This model is trained to classify images of Natural Scenes around the world distributed under 6 categories.
+
+---
+
 ## Dataset
 
 The models in this repository were trained on the following datasets:
@@ -79,11 +63,16 @@ The models in this repository were trained on the following datasets:
 
 * **Rock-Paper-Scissors**: The rock-paper-scissors dataset consists of images of hands displaying rock, paper, or scissors gestures. It contains a total of X images, divided into training and test sets.
 
+* **Intel images**: This is image data of Natural Scenes around the world that contains around 25k images of size 150x150 distributed under 6 categories.
+
+
 The datasets used for training and evaluation are available for download from the following sources:
 
 - MNIST: [https://www.kaggle.com/competitions/digit-recognizer/data](https://www.kaggle.com/competitions/digit-recognizer/data)
 - Rock-Paper-Scissors: [https://www.kaggle.com/datasets/frtgnn/rock-paper-scissor](https://www.kaggle.com/datasets/frtgnn/rock-paper-scissor)
+- Intel image classification: [https://www.kaggle.com/datasets/puneet6060/intel-image-classification](https://www.kaggle.com/datasets/puneet6060/intel-image-classification)
 
+---
 
 ## Results
 
@@ -92,6 +81,8 @@ The accuracy and performance of the models are as follows:
 1. **Digit Recognizer**: Achieves an accuracy above `99.38%` on the MNIST test dataset.
 
 2. **Rock-Paper-Scissors Classifier**: Achieves an accuracy of `98.3%` on the rock-paper-scissors test dataset.
+
+3. **Intel images classification**: Achieves an accuracy of `91.3%` on the test dataset.
 
 ## License
 
