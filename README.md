@@ -24,7 +24,7 @@ To use the models and code in this repository, follow these steps:
 1. Clone the repository to your local machine:
 
    ````bash
-   git clone https://github.com/your-username/Image-classification-projects.git
+   git clone https://github.com/tawfikhammaf/Image-classification-projects.git
 
 
 2. Install the required dependencies. Assuming you have Python and pip installed, run the following command:
